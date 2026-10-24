@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="orangeGradM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background for maskable cropping -->
+  <rect width="512" height="512" fill="#09090b"/>
+
+  <!-- Centered safe zone circle (80% diameter) -->
+  <circle cx="256" cy="256" r="170" fill="#18181b" stroke="#27272a" stroke-width="4"/>
+  <circle cx="256" cy="256" r="130" fill="none" stroke="#3f3f46" stroke-width="2"/>
+
+  <!-- Signature Play That Triangle in safe zone -->
+  <polygon points="220,180 340,256 220,332" fill="url(#orangeGradM)"/>
+  <polygon points="220,180 295,256 220,256" fill="#ffffff" fill-opacity="0.25"/>
+
+  <!-- Equalizer bars inside safe zone -->
+  <rect x="200" y="355" width="14" height="25" rx="6" fill="#71717a"/>
+  <rect x="225" y="345" width="14" height="35" rx="6" fill="#a1a1aa"/>
+  <rect x="250" y="335" width="14" height="45" rx="6" fill="#f97316"/>
+  <rect x="275" y="342" width="14" height="38" rx="6" fill="#fb923c"/>
+  <rect x="300" y="352" width="14" height="28" rx="6" fill="#a1a1aa"/>
+
+  <circle cx="340" cy="256" r="6" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dev-dist/
+graphify-out/
+android/build/
+android/app/build/
+android/.gradle/
+.env

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#27272a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a1a1aa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="112" fill="#09090b"/>
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="url(#bgGlow)" stroke="#27272a" stroke-width="6"/>
+
+  <!-- Concentric Sound Radar Rings (Dark Grey & Orange Accent) -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#27272a" stroke-width="4" stroke-dasharray="8 8"/>
+  <circle cx="256" cy="256" r="145" fill="none" stroke="#3f3f46" stroke-width="4"/>
+  <circle cx="256" cy="256" r="105" fill="#18181b" stroke="#f97316" stroke-width="3" stroke-opacity="0.4"/>
+
+  <!-- Signature Play That Triangle -->
+  <polygon points="215,160 360,256 215,352" fill="url(#orangeGrad)"/>
+  
+  <!-- Sleek Chrome Inner Triangle Highlight -->
+  <polygon points="215,160 310,256 215,256" fill="#ffffff" fill-opacity="0.25"/>
+
+  <!-- Equalizer / Wave Bars at Bottom -->
+  <rect x="180" y="380" width="16" height="36" rx="8" fill="#71717a"/>
+  <rect x="210" y="365" width="16" height="51" rx="8" fill="#a1a1aa"/>
+  <rect x="240" y="350" width="16" height="66" rx="8" fill="#f97316"/>
+  <rect x="270" y="360" width="16" height="56" rx="8" fill="#fb923c"/>
+  <rect x="300" y="375" width="16" height="41" rx="8" fill="#a1a1aa"/>
+  <rect x="330" y="390" width="16" height="26" rx="8" fill="#71717a"/>
+
+  <!-- High-res Sparkle Dot -->
+  <circle cx="360" cy="256" r="8" fill="#ffffff"/>
+</svg>
